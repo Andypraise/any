@@ -91,3 +91,17 @@ ul li span {
 ul li span:hover {
   background-color: #edeef0;
 }
+@media (max-width: 768px) {
+  .app {
+    width: 90%;
+  }
+
+  .row input {
+    padding: 0;
+    width: 100px;
+  }
+  button {
+    width: 35%;
+    height: 50px;
+  }
+}
